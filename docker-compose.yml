@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  php:
+    image: hatemsoliman13/eastern-enterprise:1.0
+    build: .
+    container_name: app
+    volumes:
+      - .:/eastern-enterprise
