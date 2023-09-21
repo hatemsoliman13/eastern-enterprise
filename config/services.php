@@ -30,5 +30,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'positionstack' => [
+        'url' => 'http://api.positionstack.com/v1/forward',
+        'access_key' => '9eb61b6aa98a57d4201f19b0253c92aa'
+    ]
 
 ];
