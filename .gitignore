@@ -17,3 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/data/addresses/output/addresses.csv
+/data/addresses/output/test/addresses.csv
